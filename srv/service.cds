@@ -12,6 +12,7 @@ service shop {
         p.price as price,
         p.supplier as supplier,
         p.description as description,
+        p.discount as discount,
         i.fileName as fileName,
         i.url as url,
         i.mediaType as mediaType,
